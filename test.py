@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 option = webdriver.ChromeOptions()
 option.add_argument("--headless")
 driver = webdriver.Chrome(
-    executable_path="/home/sulaiman/Python/selenium/chromedriver", chrome_options=option
+    executable_path="/home/sulaiman/Documents/GitHub/SudokuTesting/chromedriver", chrome_options = option
 )
 driver.get("http://localhost:3000/")
 
